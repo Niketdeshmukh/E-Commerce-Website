@@ -4,7 +4,6 @@ const initialState = {
     cart: null,
     loading: false
 }
-
 export default function(state=initialState, action){
     switch(action.type){
         case GET_CART:

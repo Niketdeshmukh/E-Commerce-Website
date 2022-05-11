@@ -12,7 +12,6 @@ class Cart extends Component {
     state = {
         loaded: false,
     }
-
     static propTypes = {
         getCart: PropTypes.func.isRequired,
         isAuthenticated: PropTypes.bool,

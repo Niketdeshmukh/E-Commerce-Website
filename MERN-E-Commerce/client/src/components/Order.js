@@ -6,7 +6,6 @@ import { getOrders } from '../actions/orderActions';
 import {Card, CardText, CardBody, CardTitle, CardSubtitle, Button, Alert, Container} from 'reactstrap';
 
 class Orders extends Component {
-
     state = {
         loaded: false,
     }

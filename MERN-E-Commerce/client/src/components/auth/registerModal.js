@@ -11,6 +11,7 @@ import {
     NavLink,
     Alert
 } from 'reactstrap';
+
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { register } from '../../actions/authActions';
