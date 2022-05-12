@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import {NavLink, Button} from 'reactstrap';
 import PropTypes from 'prop-types';
 
+
 export class Logout extends Component {
     static propTypes = {
         logout: PropTypes.func.isRequired

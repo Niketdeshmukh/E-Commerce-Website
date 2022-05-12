@@ -5,6 +5,7 @@ const initialState = {
     status: null,
     id: null
 }
+
 export default function(state=initialState, action){
     switch(action.type){
         case GET_ERRORS:

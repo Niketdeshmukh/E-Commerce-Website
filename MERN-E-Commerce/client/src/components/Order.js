@@ -9,7 +9,6 @@ class Orders extends Component {
     state = {
         loaded: false,
     }
-
     static propTypes = {
         isAuthenticated: PropTypes.bool,
         user: PropTypes.object.isRequired,

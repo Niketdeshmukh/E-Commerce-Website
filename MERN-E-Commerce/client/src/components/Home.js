@@ -11,6 +11,7 @@ class Home extends Component {
     componentDidMount(){
         this.props.getItems();
     }
+    
     static propTypes = {
         getItems: PropTypes.func.isRequired,
         item: PropTypes.object.isRequired,

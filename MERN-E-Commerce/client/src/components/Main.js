@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 import Cart from './Cart';
 import Orders from './Order';
 
-
 class Main extends Component {
     render(){
         return (

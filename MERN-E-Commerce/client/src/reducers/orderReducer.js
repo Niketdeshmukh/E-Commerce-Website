@@ -4,6 +4,7 @@ const initialState = {
     orders: [],
     loading: false
 }
+
 export default function(state=initialState, action){
     switch(action.type){
         case GET_ORDERS:
